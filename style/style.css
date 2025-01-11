@@ -9,7 +9,7 @@ body{
     width: 1100px;
     height: 500px;
     margin: auto;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 
 }
 
@@ -50,15 +50,13 @@ nav h1{
   
 }
 /* Banner section */
+
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 10px auto; */
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
-    /* width: 1100px;
-    height: 500px; */
     flex-direction: row;  
 }
 .banner-container{
@@ -67,7 +65,7 @@ nav h1{
 .banner-title{
     font-family: Fira Sans;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 450;
     margin-bottom: 20px;
 
 }
@@ -99,7 +97,8 @@ nav h1{
     margin-right: 30px;
 }
 
-/* Visiion section */
+
+/* Vision section */
 
 .vision-title{
     color: rgb(14, 14, 14);
@@ -111,9 +110,7 @@ nav h1{
     text-align: left;
     margin-bottom: 13px;
 }
-/* .vision-container{
-    margin: 40px 130px;
-} */
+
 .vision-description{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -236,17 +233,14 @@ nav h1{
     width: 350px;
     height: 250px;
 }
-.satelite-container{
-    /* margin-left: 40px;
-    margin-top: 11px; */
-}
+
 .satelite-title{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 23px;
     font-weight: 700;
     line-height: 32px;
-    /* margin-bottom: 10px; */
+   
    
 }
 .satelite-img-2{
@@ -379,4 +373,62 @@ nav h1{
     font-weight: 600;
 
 }
+
+/* Newsleter section */
+
+
+.Newsletter{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
  
+.newsletter-container{
+    width: 750px;
+    height: 210px;
+    margin: auto;
+    padding: 80px 0px;
+    text-align: center;
+}
+.universel-waight{
+    width: 1100px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+   
+}
+.newsletter-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.newsletter-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.newsletter-input{
+    border-radius: 8px 8px 8px 8px;
+    width: 400px;
+    height: 47px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.newsletter-peragraph{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    
+}
