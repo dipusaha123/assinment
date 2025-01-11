@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: rgb(245, 245, 245);;
+}
+
+.universel-weight{
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 35px;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 170px;
+
+}
+nav h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+.btn-primary{
+    
+    padding: 12px 27px 12px 27px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+  
+}
+/* Banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px auto; */
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    /* width: 1100px;
+    height: 500px; */
+    flex-direction: row;  
+}
+.banner-container{
+   margin-left: 100px;
+}
+.banner-title{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.banner-discription{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 37px;
+    font-weight: 650;
+    line-height:40px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: inline;
+}
+.banner-header{
+    margin-bottom: 25px;
+}
+.btn-secondary{
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;  
+
+}
+.banner-img{
+    margin-right: 30px;
+}
+
+/* Visiion section */
+
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 13px;
+}
+/* .vision-container{
+    margin: 40px 130px;
+} */
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.card-title{
+    color: rgba(20, 19, 19, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.card-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 15px;
+  
+}
+.btn-3{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding:9px 18px 9px 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-4{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding:9px 18px 9px 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-5{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding:9px 18px 9px 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+
+}
+.card-container{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    width: 353px;
+    height: 300px;
+    padding: 32px 32px;
+    
+}
+.card-img{
+    margin-bottom: 15px;
+}
+
+
+/* satelite section */
+
+
+
